@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+ // parte de edição do codigo atravez de uma busca no banco do id é vinculando as suas respecitivas atribuiçoes
 <?php
 	includde_once(conexao.php);
 	$busc= "select * from ususarios where id = '$id'";
