@@ -1,4 +1,5 @@
 <?php
+        // Processamento do cadastro, definido variaveis onde recebe os valores preenchido no formulario é reaslizado po enviuo para o banco 
 	include_once("conexao.php");
 	$nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
 	$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
