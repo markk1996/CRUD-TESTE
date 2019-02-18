@@ -1,5 +1,6 @@
 <?php
-	include_once(conexao.php);
+	// Editar usuario do link do listar.php, ultilizando o id para referfenciar 
+        include_once(conexao.php);
 	$id = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT);
 	$nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_STRING);
 	$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
