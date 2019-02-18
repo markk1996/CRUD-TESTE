@@ -5,6 +5,7 @@
 	<title> cadastrar </title>
 </head>
 <body>
+    // pagina inicial do cadastro atraves de um formulario é um liunk para o listar 
     echo "<a href='listar.php'>Listar</a><br>";
 	<h1>Cadastrar Usuario</h1>
 	<form method ='post' action ="pros_cad.php">
